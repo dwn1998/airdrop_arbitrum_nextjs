@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { ethers } from 'ethers';
 import styles from './MintTokenFrame.module.css';
 
-const contractAddress = '0x4BB0862011109038B13eF5D41D927deB38792990';
+const contractAddress = '0x959f76f01390Bf291bac1b1cf27477CE07728216';
 const contractABI = [
   {
     "inputs": [],
