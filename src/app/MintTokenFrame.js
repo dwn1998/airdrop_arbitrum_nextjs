@@ -73,16 +73,16 @@ const MintTokenFrame = () => {
   };
 
   const handleRecastAndClaim = () => {
-    const text = `I am claiming my airdrop on MintableToken! Check it out: ${appUrl}`;
-    const url = generateWarpcastURL(text);
+    const text = `I am claiming my airdrop on $GOT! Check it out: `;
+    const url = generateWarpcastURL(text, [appUrl]);
     window.open(url, '_blank');
     setShared(true);
     setImageSrc('got2_claim.png');
   };
 
   const handleShareFrame = () => {
-    const text = `Sharing my MintableToken frame! Check it out: ${appUrl}`;
-    const url = generateWarpcastURL(text);
+    const text = `Sharing the $GOT frame! Check it out: `;
+    const url = generateWarpcastURL(text, [appUrl]);
     window.open(url, '_blank');
     setShared(true);
   };
